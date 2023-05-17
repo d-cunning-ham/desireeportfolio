@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Desiree Cunningham</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">Desiree.</h2>
+        <nav class="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="portfolio.html">Portfolio</a>
+        </nav>
+    </header>
+    
+    <section class="banner">
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
+    </section>
+    
+    <section class="home">
+        <div class="home-content">
+            <h1>Hello! I'm Desiree.</h1>
+            <h2>And I'm <span class="multiple-text"></span></h2>
+            <p>I'm so glad you took the time to stop by my portfolio!
+                Here you'll find everything from my portfolio to personal statement. I won't waste your time here, though.
+                There's more to explore! Click through each tab to learn all about me.</p>
+        </div>       
+        
+        <div class="home-img">
+            <img src="img/DesireeCunningham.png" alt="Desiree_Cunningham">
+     </div> 
+    </section>   
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
